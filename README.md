@@ -5,6 +5,7 @@ MITM Proxy Cookie Stealer for Education
 ---
 
 TÜRKÇE 
+
 Proje Amacı ve Sorumluluk Reddi
 
 Bu projeyi paylaşmamdaki amaç, eğitim ve öğrenim odaklıdır. Projenin tasarlanma sürecinde, yazılım geliştirme, algoritma tasarımı ve teknik bilgi paylaşımı hedeflenmiştir. Projenin, geliştiriciler ve öğrenciler tarafından eğitim amaçlı kullanılmasını teşvik etmekteyim.
@@ -23,7 +24,8 @@ Projeyi kullanan herkesin bu uyarıları dikkate almasını ve projeyi etik ve y
 
 ---
 
-İNGİLİZCE
+ENGLISH
+
 Project Purpose and Disclaimer
 
 The purpose of sharing this project is educational and for learning purposes. The project was designed with the intent to enhance knowledge in software development, algorithm design, and technical information sharing. I encourage developers and students to use this project for educational purposes.
