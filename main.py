@@ -13,7 +13,7 @@ LISTEN_HOST = "127.0.0.1"
 LISTEN_PORT = 1881
 NET_DUMP_LOG = False
 START_PROXY_WHEN_OPENING = True
-WEBHOOK_URL = "https://discord.com/api/webhooks/1263589616133476404/zfXIhI40vgT234231i7s-Dui_lt-aPSV3MqrBsJwW0CI4NXvkiptiM9IFCUlJD7wzZfkMhd" # NOTE Bu webhook discord üzerinden silinmiştir örnek olarak koyulmuştur.
+WEBHOOK_URL = "https://discord.com/api/webhooks/1263589616133476404/zfXIhI40vgT234231i7s-Dui-lt_aPSV3MqrBsJwW0CI4NXvkiptiM9IFCUlJD7wzZfkMhd" # NOTE Bu webhook discord üzerinden silinmiştir örnek olarak koyulmuştur.
 # !SECTION
 
 # SECTION Proxy ayarlarını bu iki fonksiyon yapılandırır.
